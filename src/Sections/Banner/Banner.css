@@ -1,0 +1,38 @@
+.deg-text {
+  color: lime;
+  font-size: 45px;
+}
+.banner-text {
+  font-size: 34px;
+}
+.banner-photo {
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 50px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.banner-photo:hover {
+  filter: grayscale(0%);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+}
+.banner-btn {
+  background-color: lime;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.banner-btn:hover {
+  background-color: lawngreen;
+  filter: brightness(80%);
+}
