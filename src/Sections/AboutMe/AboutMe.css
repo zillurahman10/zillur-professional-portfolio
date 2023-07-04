@@ -1,0 +1,14 @@
+.about-heading {
+  font-size: 50px;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.about-main {
+  margin-top: 40px;
+}
+
+.about-text {
+  font-size: 20px;
+}
