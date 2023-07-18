@@ -1,0 +1,58 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Add any additional styling for the container */
+}
+
+.contact-info {
+  flex: 1;
+  text-align: center;
+  /* Add any additional styling for the contact info section */
+}
+
+.contact-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  /* Add any additional styling for the contact image */
+}
+
+.contact-form {
+  flex: 1;
+  margin-left: 40px; /* Adjust the spacing between the image and the form */
+  /* Add any additional styling for the contact form section */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* Add any additional styling for the form */
+}
+
+label {
+  margin-bottom: 5px;
+  /* Add any additional styling for the labels */
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* Add any additional styling for the input fields and textarea */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Add any additional styling for the submit button */
+}
