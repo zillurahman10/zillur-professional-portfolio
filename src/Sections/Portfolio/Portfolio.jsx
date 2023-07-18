@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Portfolio.css";
-import "swiper/css";
 import PortfolioCard from "./PortfolioCard.tsx";
 
 function Portfolio() {
@@ -15,10 +14,27 @@ function Portfolio() {
   return (
     <div>
       <h1 className="portfolio-heading">My Portfolios</h1>
-      <div>
-        {portfolio.map((pt) => (
+      <div className="card-grid">
+        {portfolio.slice(0, 3).map((pt) => (
           <PortfolioCard key={pt._id} portfolio={pt}></PortfolioCard>
         ))}
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          margin: "20px",
+        }}
+      >
+        <button
+          className="glow-btn-card"
+          style={{
+            width: "200px",
+          }}
+        >
+          See more
+        </button>
       </div>
     </div>
   );
